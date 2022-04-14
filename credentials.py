@@ -20,9 +20,9 @@ class Credentials():
 # Redshift
 driver_postgres = "postgresql+psycopg2"
 host_postgres = "localhost"
-user_postgres = "etl"
+user_postgres = input("User_postgres: ") # user
+password_postgres = pwinput.pwinput(prompt="Password_postgres: ", mask='*') # password
 dbname_postgres = "pocdw"
-password_postgres = "021212"
 sslmode_postgres = "require"
 port_postgres = "5432"
 schema_pstgres = "poc"
