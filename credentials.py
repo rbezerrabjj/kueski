@@ -16,6 +16,8 @@ class Credentials():
         self.password_postgres = password_postgres
         self.sslmode_postgres = sslmode_postgres
         self.port_postgres = port_postgres
+        
+import pwinput
 
 # Redshift
 driver_postgres = "postgresql+psycopg2"
